@@ -58,8 +58,8 @@ Python 依赖：
 ### 1. 克隆代码
 
 ```bash
-git clone https://github.com/beijingcao/binance-deribit-btc-github.git
-cd binance-deribit-btc-github
+git clone https://github.com/beijingcao/binance-deribit-btc.git
+cd binance-deribit-btc
 ```
 
 ### 2. 创建 Python 虚拟环境
@@ -259,8 +259,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/opt/binance-deribit-btc-github
-ExecStart=/opt/binance-deribit-btc-github/.venv/bin/python /opt/binance-deribit-btc-github/binance_deribit.py
+WorkingDirectory=/opt/binance-deribit-btc
+ExecStart=/opt/binance-deribit-btc/.venv/bin/python /opt/binance-deribit-btc/binance_deribit.py
 Restart=always
 RestartSec=5
 User=ubuntu
